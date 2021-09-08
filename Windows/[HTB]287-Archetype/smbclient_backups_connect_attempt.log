@@ -1,0 +1,38 @@
+Try "help" to get a list of possible commands.
+[?2004hsmb: \> help
+[?2004l
+?              allinfo        altname        archive        backup         
+blocksize      cancel         case_sensitive cd             chmod          
+chown          close          del            deltree        dir            
+du             echo           exit           get            getfacl        
+geteas         hardlink       help           history        iosize         
+lcd            link           lock           lowercase      ls             
+l              mask           md             mget           mkdir          
+more           mput           newer          notify         open           
+posix          posix_encrypt  posix_open     posix_mkdir    posix_rmdir    
+posix_unlink   posix_whoami   print          prompt         put            
+pwd            q              queue          quit           readlink       
+rd             recurse        reget          rename         reput          
+rm             rmdir          showacls       setea          setmode        
+scopy          stat           symlink        tar            tarmode        
+timeout        translate      unlock         volume         vuid           
+wdel           logon          listconnect    showconnect    tcon           
+tdis           tid            utimes         logoff         ..             
+!              
+[?2004hsmb: \> dir
+[?2004l
+  .                                   D        0  Mon Jan 20 07:20:57 2020
+  ..                                  D        0  Mon Jan 20 07:20:57 2020
+  prod.dtsConfig                     AR      609  Mon Jan 20 07:23:02 2020
+
+		10328063 blocks of size 4096. 8258867 blocks available
+[?2004hsmb: \> get -h
+[?2004l
+NT_STATUS_OBJECT_NAME_NOT_FOUND opening remote file \-h
+[?2004hsmb: \> get
+[?2004l
+get <filename> [localname]
+[?2004hsmb: \> get prod.dtsConfig [K
+[?2004l
+[?2004hsmb: \> exit
+[?2004l

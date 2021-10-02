@@ -10,7 +10,7 @@ nmap 10.10.10.27 -oN init_nmap.log
 Service discovery and default scripts on found ports
 
 ```bash
-nnamp -sV -sC -p 135,139,445,1433,1434 -oN portscan_nmap.log
+nnamp 10.10.10.27 -sV -sC -p 135,139,445,1433,1434 -oN portscan_nmap.log
 ```
 
 ## Connecting with smb
